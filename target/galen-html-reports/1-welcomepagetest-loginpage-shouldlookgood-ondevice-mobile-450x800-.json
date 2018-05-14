@@ -1,0 +1,490 @@
+{
+  "testId" : "1-welcomepagetest-loginpage-shouldlookgood-ondevice-mobile-450x800-",
+  "name" : "WelcomePageTest#loginPage_shouldLookGood_onDevice (mobile 450x800)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+      "status" : "error",
+      "time" : 1500561402067,
+      "includedTags" : [ "mobile" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+          "lineNumber" : 12
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 15
+            },
+            "name" : "inside screen 0px top",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 16
+            },
+            "name" : "centered horizontally inside screen 1px",
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 17
+            },
+            "name" : "height ~ 70px",
+            "highlight" : [ "header" ]
+          } ]
+        }, {
+          "name" : "header-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 20
+            },
+            "name" : "inside header 5 to 15px top, 0 to 10px left",
+            "highlight" : [ "header-logo", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 21
+            },
+            "name" : "near header-text 5 to 30px left",
+            "highlight" : [ "header-logo", "header-text" ]
+          } ]
+        }, {
+          "name" : "header-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 24
+            },
+            "name" : "inside header 10 to 25px top",
+            "highlight" : [ "header-text", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 36
+            },
+            "name" : "text is \"Sample Website\"",
+            "highlight" : [ "header-text" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Menu",
+        "place" : {
+          "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+          "lineNumber" : 41
+        },
+        "objects" : [ {
+          "name" : "menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 43
+            },
+            "name" : "centered horizontally inside screen 1px",
+            "highlight" : [ "menu", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 44
+            },
+            "name" : "below header ~ 0px",
+            "highlight" : [ "menu", "header" ]
+          } ]
+        }, {
+          "name" : "menu-item-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 69
+            },
+            "name" : "width 48 to 50% of screen/width",
+            "highlight" : [ "menu-item-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 73
+            },
+            "name" : "above menu-item-3 0 to 5px",
+            "highlight" : [ "menu-item-1", "menu-item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 77
+            },
+            "name" : "near menu-item-2  -1 to 5 px left",
+            "highlight" : [ "menu-item-1", "menu-item-2" ]
+          } ]
+        }, {
+          "name" : "menu-item-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 69
+            },
+            "name" : "width 48 to 50% of screen/width",
+            "highlight" : [ "menu-item-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 73
+            },
+            "name" : "above menu-item-4 0 to 5px",
+            "highlight" : [ "menu-item-2", "menu-item-4" ]
+          } ]
+        }, {
+          "name" : "menu-item-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 69
+            },
+            "name" : "width 48 to 50% of screen/width",
+            "highlight" : [ "menu-item-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 77
+            },
+            "name" : "near menu-item-4  -1 to 5 px left",
+            "highlight" : [ "menu-item-3", "menu-item-4" ]
+          } ]
+        }, {
+          "name" : "menu-item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 69
+            },
+            "name" : "width 48 to 50% of screen/width",
+            "highlight" : [ "menu-item-4" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Content",
+        "place" : {
+          "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+          "lineNumber" : 80
+        },
+        "objects" : [ {
+          "name" : "content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 83
+            },
+            "name" : "below menu ~ 0px",
+            "highlight" : [ "content", "menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 84
+            },
+            "name" : "centered horizontally inside screen 1px",
+            "highlight" : [ "content", "screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Footer",
+        "place" : {
+          "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+          "lineNumber" : 92
+        },
+        "objects" : [ {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 94
+            },
+            "name" : "height ~ 200px",
+            "errors" : [ "\"footer\" height is 150px which is not in range of 198 to 202px" ],
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources/common.spec",
+              "lineNumber" : 95
+            },
+            "name" : "below content 0px",
+            "highlight" : [ "footer", "content" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Login box",
+        "place" : {
+          "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+          "lineNumber" : 14
+        },
+        "objects" : [ {
+          "name" : "login-box",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 17
+            },
+            "name" : "centered horizontally inside content 1px",
+            "highlight" : [ "login-box", "content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 18
+            },
+            "name" : "below menu 20 to 45px",
+            "highlight" : [ "login-box", "menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 67
+            },
+            "name" : "inside screen ~ 20px left right",
+            "highlight" : [ "login-box", "screen" ]
+          } ]
+        }, {
+          "name" : "login-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 21
+            },
+            "name" : "height 20 to 35px",
+            "highlight" : [ "login-caption" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 22
+            },
+            "name" : "text is \"Login\"",
+            "highlight" : [ "login-caption" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 73
+            },
+            "name" : "inside login-box 0px top, 0px left",
+            "highlight" : [ "login-caption", "login-box" ]
+          } ]
+        }, {
+          "name" : "username-textfield",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 25
+            },
+            "name" : "height 25 to 35 px",
+            "highlight" : [ "username-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 28
+            },
+            "name" : "below login-caption 5 to 15px",
+            "highlight" : [ "username-textfield", "login-caption" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 29
+            },
+            "name" : "aligned vertically all password-textfield",
+            "highlight" : [ "username-textfield", "password-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 70
+            },
+            "name" : "inside login-box 0px left right",
+            "highlight" : [ "username-textfield", "login-box" ]
+          } ]
+        }, {
+          "name" : "password-textfield",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 25
+            },
+            "name" : "height 25 to 35 px",
+            "highlight" : [ "password-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 32
+            },
+            "name" : "below username-textfield 5 to 15px",
+            "highlight" : [ "password-textfield", "username-textfield" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 33
+            },
+            "name" : "aligned vertically left login-button",
+            "highlight" : [ "password-textfield", "login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 70
+            },
+            "name" : "inside login-box 0px left right",
+            "highlight" : [ "password-textfield", "login-box" ]
+          } ]
+        }, {
+          "name" : "login-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 36
+            },
+            "name" : "height 40 to 50 px",
+            "highlight" : [ "login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "text is \"Login\"",
+            "highlight" : [ "login-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "inside login-box 0px left right",
+            "highlight" : [ "login-button", "login-box" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 77
+            },
+            "name" : "above cancel-button  4 to 10px",
+            "errors" : [ "\"login-button\" is 11px above \"cancel-button\" which is not in range of 4 to 10px" ],
+            "highlight" : [ "login-button", "cancel-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 78
+            },
+            "name" : "aligned vertically all cancel-button",
+            "highlight" : [ "login-button", "cancel-button" ]
+          } ]
+        }, {
+          "name" : "cancel-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 36
+            },
+            "name" : "height 40 to 50 px",
+            "highlight" : [ "cancel-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\shmittal\\proj\\galen\\src\\test\\resources\\loginPage.spec",
+              "lineNumber" : 42
+            },
+            "name" : "text is \"Cancel\"",
+            "highlight" : [ "cancel-button" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "login-button" : {
+          "area" : [ 20, 378, 378, 45 ]
+        },
+        "menu-item-2" : {
+          "area" : [ 209, 70, 210, 64 ]
+        },
+        "menu-item-3" : {
+          "area" : [ 0, 134, 210, 64 ]
+        },
+        "footer" : {
+          "area" : [ 0, 648, 418, 150 ]
+        },
+        "cancel-button" : {
+          "area" : [ 20, 434, 378, 45 ]
+        },
+        "menu-item-1" : {
+          "area" : [ 0, 70, 210, 64 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 418, 798 ]
+        },
+        "menu-item-4" : {
+          "area" : [ 209, 134, 210, 64 ]
+        },
+        "menu" : {
+          "area" : [ 0, 70, 418, 128 ]
+        },
+        "username-textfield" : {
+          "area" : [ 20, 280, 378, 34 ]
+        },
+        "content" : {
+          "area" : [ 0, 198, 418, 450 ]
+        },
+        "login-box" : {
+          "area" : [ 20, 238, 378, 242 ]
+        },
+        "password-textfield" : {
+          "area" : [ 20, 324, 378, 34 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 418, 70 ]
+        },
+        "header-text" : {
+          "area" : [ 70, 20, 261, 39 ]
+        },
+        "header-logo" : {
+          "area" : [ 0, 13, 48, 48 ]
+        },
+        "login-caption" : {
+          "area" : [ 20, 238, 378, 33 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
